@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #3823b8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.Curso{
+    padding: 15px;
+}
+
+.card-curso{
+    width: 400px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.texto-card{
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: 
+
+
+footer{
+    background-color: #3823b8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

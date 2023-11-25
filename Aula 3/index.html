@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos formulario</title>
+</head>
+<body>
+    
+    <form action="mailto:pamelaiantonucci@gmail.com" method="post">
+
+        <label for="camponome">Nome completo:</label>
+        <input type="text" name="camponome">
+
+        <label for="camponumero">Sua idade:</label>
+        <input type="number">
+
+        <label for="campodata">Data de nascimento:</label>
+        <input type="datetime-local" name="campodata">
+
+        <br>
+
+        <label for="campoemail">Seu melhor email:</label>
+        <input type="email" name="campoemail" required>
+
+        <label for="camposenha">Sua Senha:</label>
+        <input type="password" name="camposenha" minlength="6" required>
+
+        <label for="camposelect">Escreva aqui:</label>
+        <select name="camposelect" id="">
+            <option value="">Selecionar</option>
+            <option value="">Opção 01</option>
+            <option value="">Opção 02</option>
+        </select>
+        
+        <textarea></textarea>
+
+
+        <button type="submit">Clique aqui</button>
+
+
+
+    </form>
+
+</body>
+</html>
