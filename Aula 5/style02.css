@@ -49,7 +49,7 @@ align-items: start;
 a{
   text-decoration: none;
   font-size: 18px;
-  color: #141414;
+  color:#313131;
 }
 
 .registrar{
@@ -60,7 +60,7 @@ a{
 
 h1{
   font-size: 30px;
-  color: #171718;
+  color: #313131;
 }
 
 header{
@@ -74,9 +74,13 @@ header{
 
   padding: 30px;
   gap: 10px;
+
+  margin-left: 200px;
+
 }
 
 .descricao-titulo{
+  color: #313131;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -85,18 +89,22 @@ header{
 
   margin-top: 10px;
 
-  font-size: 18px;
+  font-size: 30px;
+}
+
+.titulo{
+  font-size: 52px;
 }
 
 .botao-secao-um{
 
-  margin-top: 16px;
+  margin-top: 40px;
 
   font-weight: 600;
-  font-size: 16px;
+  font-size: 26px;
   color: white;
   background-color: #004343;
-  padding: 10px;
+  padding: 20px;
   border-radius: 9px;
   border: none;
   box-shadow: 5px 5px  #66666610;
@@ -105,8 +113,25 @@ header{
 
 .botao-secao-um:hover{
   background-color: #006666;
-  font-size: 17px;
+  font-size: 30px;
   font-weight: 600;
+}
+
+.imagem-comeco{
+  width: 350px;
+  border-radius: 20px;
+ 
+ 
+  margin: 50px;
+}
+
+.inicio{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 /* Slide */
@@ -118,6 +143,18 @@ header{
 .area-de-navegacao{
   background-color: #CCE0E0;
   
+}
+
+.estetica{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.enfermagem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .titulo-secao-dois{
@@ -136,9 +173,10 @@ header{
 .coluna-icones{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: end;
 
+  gap: 500px;
   margin-top: 60px;
 }
 
@@ -161,6 +199,8 @@ header{
 
 
 .titulo-secao-tres{
+
+  font-size: 36px;
   color: white;
 
   padding: 12px;
