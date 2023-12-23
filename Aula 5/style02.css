@@ -125,6 +125,8 @@ header{
   margin: 50px;
 }
 
+
+
 .inicio{
   width: 100%;
   display: flex;
@@ -162,13 +164,17 @@ header{
   font-size: 30px;
   font-weight: 800;
   color: #313131;
+
+  padding-top: 50px;
 }
 
 .escolha-topicos{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
 }
+
 
 .coluna-icones{
   display: flex;
@@ -176,25 +182,32 @@ header{
   justify-content: center;
   align-items: end;
 
-  gap: 500px;
-  margin-top: 60px;
+
+  gap: 300px;
+  margin-top: 10px;
 }
 
 .img-valor{
   width: 60px;
   padding: 16px;
+  transition: 0.5s;
 }
+
+.img-valor:hover{
+  width: 70px;
+}
+
+
 
 .descricao{
   font-size: 26px;
   font-weight: 600;
   color: #313131;
-  transition: 0.5s;
+
 }
 
 .descricao:hover{
-  font-size: 30px;
-  font-weight: 750;
+  font-size: 28px;
 }
 
 
@@ -218,6 +231,8 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+
+  margin-left: 70px;
 }
 
 .imagem-vendas{
@@ -273,6 +288,8 @@ h4{
   align-items: start;
   gap: 5px;
   margin: 30px;
+
+  margin-left: 100px;
 }
 
 .promocao{
@@ -394,7 +411,7 @@ color: #D1D1D1;
 
 .imagem-cert{
   width: 70px;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .imagem-cert:hover{
@@ -438,6 +455,11 @@ color: #D1D1D1;
 
 }
 
+.botao-whats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 
 .whatsapp-cert:hover{
@@ -474,17 +496,103 @@ color: #D1D1D1;
 
 
 .divisoria-cliente{
-  background-color: #004343;
-  height: 20px;
+  margin-top: 70px;
+  background-color: #66A6A6;
+  height: 25px;
   border-radius: 10px;
+  margin-bottom: 70px;
 }
 
 
 .tit-cliente{
   color: #313131;
-  font-size: 30px;
+  font-size: 50px;
+  font-weight: 800;
+
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
 }
 
-.titulo-cliente{
-    display: inline-block;
+
+.img-logo{
+  width: 350px;
+}
+
+.clientes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 100px;
+}
+
+.clientes-dois{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 100px;
+}
+
+
+.conteudo-rodape{
+  width: 60%;
+  margin: 0 auto;
+  
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+
+  height: 50px;
+
+}
+
+
+.copy{
+  text-align: center;
+  color: #313131;
+  padding-bottom: 16px;
+}
+
+footer{
+background-color: #CCE0E0;
+}
+
+.localizacao{
+  color: #313131;
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-bottom: 15px;
+
+}
+
+.localizacao-um{
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+.contato{
+  color: #313131;
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+.contato-um{
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
